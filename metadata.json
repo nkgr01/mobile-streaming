@@ -1,0 +1,6 @@
+{
+  "name": "Cinema Now",
+  "description": "Application native Android WebView pour Cinema Now (https://cinema-now.vercel.app/)",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
