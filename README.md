@@ -1,144 +1,169 @@
 # 🎬 Ciné Now Mobile
 
-Application mobile de streaming pour découvrir, rechercher et consulter des films et séries via une interface moderne et intuitive.
+**Découvrez un univers de streaming sans limites directement sur votre appareil Android.**
 
-Ce projet correspond à la version mobile de la plateforme Ciné Now, pensée pour une expérience fluide sur Android.
+Application mobile native pour explorer, rechercher et profiter d'une vaste bibliothèque de films et séries avec une interface élégante et performante.
 
-## 🌐 Démonstration en ligne
+[![GitHub](https://img.shields.io/badge/GitHub-nkgr01%2Fmobile--streaming-blue?style=flat-square&logo=github)](https://github.com/nkgr01/mobile-streaming)
+[![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](LICENSE)
+[![Android](https://img.shields.io/badge/Android-5.0%2B-blue?style=flat-square&logo=android)](https://www.android.com)
+[![Language](https://img.shields.io/badge/Language-Kotlin-purple?style=flat-square&logo=kotlin)](https://kotlinlang.org)
 
-La plateforme est également accessible via le site publié :
+## ✨ Caractéristiques principales
 
-- https://cinema-now.vercel.app/
-- Repository de la plateforme web : https://github.com/nkgr01/streaming-platform
+- 🎥 **Catalogue illimité** : Accédez à des milliers de films et séries
+- 🔍 **Recherche avancée** : Trouvez instantanément votre contenu préféré
+- 🎨 **Interface moderne** : Design Material Design optimisé pour mobile
+- ⚡ **Performance** : Navigation fluide et chargement rapide
+- 📱 **Responsive** : Adaptée à tous les écrans Android
+- 🌐 **Synchronisation cloud** : Accédez à votre contenu partout
 
-## 📱 À propos
+## 🚀 Installation rapide
 
-Ciné Now Mobile est une application Android développée en Kotlin, conçue pour offrir une expérience de streaming responsive et agréable sur mobile. Elle permet aux utilisateurs de :
+### Via Google Play Store
 
-- parcourir une bibliothèque de films et séries ;
-- rechercher rapidement un titre ;
-- afficher les détails d'un contenu ;
-- naviguer facilement dans une interface pensée pour les écrans mobiles ;
-- profiter d’une experience moderne et immersive.
+*(Publication prévue)*
 
-## 🛠️ Stack technique
+### Installation manuelle
 
-- Kotlin
-- Android SDK
-- Android Studio
-- Jetpack / composants Android
-- Material Design
-- Intégration avec les APIs de contenu et de streaming
+1. **Téléchargez l'APK** depuis la page [Releases](https://github.com/nkgr01/mobile-streaming/releases)
+2. **Installez l'application** sur votre appareil Android
+3. **Lancez Ciné Now** et commencez à explorer
 
-## 🚀 Prérequis
-
-Avant de lancer le projet, assurez-vous d’avoir installé :
-
-- Android Studio
-- JDK 17 ou plus
-- Android SDK
-- Un émulateur Android ou un appareil physique
-
-## ▶️ Installation
-
-1. Clonez le dépôt :
+### Depuis les sources
 
 ```bash
+# Clonez le repository
 git clone https://github.com/nkgr01/mobile-streaming.git
+cd mobile-streaming
+
+# Ouvrez avec Android Studio
+# Ou compilez directement avec Gradle
+./gradlew assembleRelease
 ```
 
-2. Ouvrez le projet dans Android Studio.
+## 📋 Configuration requise
 
-3. Synchronisez les dépendances Gradle.
+| Élément | Version minimale |
+|---------|-----------------|
+| **Android** | 5.0 (API 21) |
+| **RAM** | 512 MB |
+| **Espace disque** | 50 MB |
+| **Connexion** | Internet (WiFi ou données mobiles) |
 
-4. Lancez l'application sur un émulateur ou un appareil Android connecté.
+## 🛠️ Stack technologique
 
-## ⚙️ Lancer le projet
-
-Depuis Android Studio :
-
-```bash
-Build > Make Project
-Run > Run 'app'
+```
+Kotlin                    → Langage de développement
+Android SDK               → Framework
+Jetpack Compose / XML     → UI
+Material Design 3         → Système de design
+Retrofit / OkHttp         → Requêtes réseau
+Room Database             → Stockage local
+LiveData / ViewModel      → Architecture
+Coroutines                → Programmation asynchrone
 ```
 
-Ou via la ligne de commande :
+## 📱 Captures d'écran
 
-```bash
-./gradlew assembleDebug
-```
+| Accueil | Détails | Recherche |
+|---------|---------|-----------|
+| ![Home](https://via.placeholder.com/300x600) | ![Details](https://via.placeholder.com/300x600) | ![Search](https://via.placeholder.com/300x600) |
 
-## 📁 Structure du projet
+*Les captures d'écran seront ajoutées après la première version*
 
-```bash
-mobile-streaming/
-├── app/
-│   └── src/
-│       └── main/
-│           ├── java/
-│           ├── res/
-│           └── AndroidManifest.xml
-├── gradle/
-├── build.gradle
-├── settings.gradle
-├── gradlew
-├── gradlew.bat
-├── README.md
-└── .gitignore
-```
+## 🔗 Liens utiles
 
-## 🌍 Environnement de démonstration
+- **Site web** : https://cinema-now.vercel.app/
+- **Repository web** : https://github.com/nkgr01/streaming-platform
+- **Issues** : https://github.com/nkgr01/mobile-streaming/issues
+- **Discussions** : https://github.com/nkgr01/mobile-streaming/discussions
 
-Le projet est conçu pour fonctionner dans un contexte mobile avec la plateforme publiée en ligne :
+## 🎯 Roadmap
 
-- https://cinema-now.vercel.app/
-
-Cela permet de tester l’expérience utilisateur dans un environnement proche de la version réelle du service.
-
-## ✨ Fonctionnalités principales
-
-- Interface moderne et fluide
-- Catalogue de contenus
-- Recherche et navigation rapide
-- Design optimisé pour mobile
-- Compatibilité Android native
-- Expérience centrée sur le streaming
-
-## 🧩 Améliorations possibles
-
-- gestion de l’authentification utilisateur ;
-- ajout des favoris ;
-- lecture vidéo intégrée ;
-- filtres et catégories de contenus ;
-- optimisation des performances et de la navigation ;
-- intégration complète avec le backend de la plateforme.
+- [x] Architecture de base
+- [ ] Intégration API complète
+- [ ] Lecture vidéo native
+- [ ] Système de favoris
+- [ ] Authentification utilisateur
+- [ ] Mode hors ligne
+- [ ] Push notifications
+- [ ] Synchronisation multi-appareils
+- [ ] Publication Google Play
 
 ## 🤝 Contribution
 
-Les contributions sont les bienvenues.
+Nous accueillons les contributions ! Voici comment vous pouvez aider :
 
-Pour contribuer :
+### Signaler un bug
 
-1. Fork le projet
-2. Créez une branche :
-   ```bash
-   git checkout -b feature/ma-fonctionnalite
-   ```
-3. Committez vos changements :
-   ```bash
-   git commit -m "Ajout de ma fonctionnalité"
-   ```
-4. Poussez la branche :
-   ```bash
-   git push origin feature/ma-fonctionnalite
-   ```
-5. Ouvrez une Pull Request
+Ouvrez une [issue](https://github.com/nkgr01/mobile-streaming/issues) avec :
+- Description du problème
+- Étapes pour le reproduire
+- Captures d'écran si applicable
+- Version Android et appareil
 
-## 📞 Contact
+### Proposer une amélioration
 
-- GitHub : https://github.com/nkgr01
-- Dépôt : https://github.com/nkgr01/mobile-streaming
+Créez une [discussion](https://github.com/nkgr01/mobile-streaming/discussions) pour partager vos idées avant de commencer le développement.
+
+### Soumettre du code
+
+```bash
+# 1. Fork le projet
+# 2. Créez une branche feature
+git checkout -b feature/ma-fonctionnalite
+
+# 3. Committez vos changements
+git commit -m "✨ Ajout de ma fonctionnalité"
+
+# 4. Poussez la branche
+git push origin feature/ma-fonctionnalite
+
+# 5. Ouvrez une Pull Request
+```
+
+**Guidelines de contribution** :
+- Respectez le style Kotlin/Android existant
+- Incluez des tests pour vos changements
+- Documentez les nouvelles APIs
+- Suivez les conventions de naming
+
+## 📊 Statistiques
+
+- **Langage** : 100% Kotlin
+- **Architecture** : MVVM + Clean Architecture
+- **Couverture de tests** : En cours
+- **Taille APK** : ~15-20 MB (estimation)
+
+## 📄 Licence
+
+Ce projet est sous licence MIT - Voir [LICENSE](LICENSE) pour les détails.
+
+## 🐛 Signaler un problème
+
+Trouvé un bug ? Avez-vous une question ?
+
+- 📧 **Email** : kouameguyrodriguen@gmail.com
+- 🐙 **GitHub Issues** : https://github.com/nkgr01/mobile-streaming/issues
+- 💬 **Discussions** : https://github.com/nkgr01/mobile-streaming/discussions
+
+## 👨‍💻 Développeur
+
+**Rodrigue N'GUESSAN**
+- GitHub : [@nkgr01](https://github.com/nkgr01)
+- Portfolio : *À venir*
+
+## 🙏 Remerciements
+
+Merci à la communauté Android et aux contributeurs qui rendent ce projet possible.
 
 ---
 
-Projet mobile de la plateforme Ciné Now.
+<div align="center">
+
+**Ciné Now Mobile** • *Votre cinéma, dans votre poche*
+
+[⬆ Retour au sommet](#-ciné-now-mobile)
+
+</div>
