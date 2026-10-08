@@ -42,15 +42,6 @@ cd mobile-streaming
 ./gradlew assembleRelease
 ```
 
-## 📋 Configuration requise
-
-| Élément | Version minimale |
-|---------|-----------------|
-| **Android** | 5.0 (API 21) |
-| **RAM** | 512 MB |
-| **Espace disque** | 50 MB |
-| **Connexion** | Internet (WiFi ou données mobiles) |
-
 ## 🛠️ Stack technologique
 
 ```
@@ -107,21 +98,6 @@ Ouvrez une [issue](https://github.com/nkgr01/mobile-streaming/issues) avec :
 
 Créez une [discussion](https://github.com/nkgr01/mobile-streaming/discussions) pour partager vos idées avant de commencer le développement.
 
-### Soumettre du code
-
-```bash
-# 1. Fork le projet
-# 2. Créez une branche feature
-git checkout -b feature/ma-fonctionnalite
-
-# 3. Committez vos changements
-git commit -m "✨ Ajout de ma fonctionnalité"
-
-# 4. Poussez la branche
-git push origin feature/ma-fonctionnalite
-
-# 5. Ouvrez une Pull Request
-```
 
 **Guidelines de contribution** :
 - Respectez le style Kotlin/Android existant
@@ -144,7 +120,7 @@ Ce projet est sous licence MIT - Voir [LICENSE](LICENSE) pour les détails.
 
 Trouvé un bug ? Avez-vous une question ?
 
-- 📧 **Email** : kouameguyrodriguen@gmail.com
+- 📧 **Email** : ashimadison8@gmail.com
 - 🐙 **GitHub Issues** : https://github.com/nkgr01/mobile-streaming/issues
 - 💬 **Discussions** : https://github.com/nkgr01/mobile-streaming/discussions
 
